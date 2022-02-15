@@ -2,7 +2,7 @@ const BASE_URL = 'https://movie-list.alphacamp.io'
 const INDEX_URL = BASE_URL + '/api/v1/movies/'
 const POSTER_URL = BASE_URL + '/posters/'
 
-// 陣列容器存放 80 個項目
+// 陣列容器存放 80  個項目
 const movies = JSON.parse(localStorage.getItem('favoriteMovies'))
 
 const dataPanel = document.querySelector('#data-panel')
